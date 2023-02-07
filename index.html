@@ -23,75 +23,7 @@
             margin: 2rem auto;
         }
 
-        .carousel-wrapper{
-            background: #ae9e9e;
-            height: 400px;
-            position: relative;
-            width: 800px;
-            display: block;
-            margin: 50px auto;
-            border: 2px solid black;
-        }
-
-        .carousel-item {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            padding: 25px 50px;
-            opacity: 0;
-            transition: all 0.5s ease-in-out;
-        }
-        .arrow {
-            border: solid black;
-            border-width: 0 3px 3px 0;
-            display: inline-black;
-            padding: 12px;
-        }
-        .arrow-prev{
-            left: 30px;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%) rotate(135deg);
-
-        }
-        .arrow-next{
-            right: 30px;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%) rotate(-45deg);
-        }
-        [id^="item"] {
-            display: none;
-        }
-        .item-1{
-            z-index: 2;
-            opacity: 1;
-            background: url('marketing-posters/Design\ 9\ 009-poster-new-year.jpg');
-            background-size: cover;
-        }
-
-        .item-2{
-            background: url('marketing-posters/Design\ 10\ 010-poster-valentines-day.jpg');
-            background-size: cover;
-        }
-
-        .item-3{
-            background: url('marketing-posters/Design\ 11\ 011-poster-summer.jpg');
-            background-size: cover;
-        }
-
-        *:target ~ .item-1{
-            opacity: 0;
-        }
-        #item-1:target ~ .item-1 {
-            opacity: 1;
-        }
-        #item-2:target ~ .item-2, #item-3:target ~ .item-3{
-            z-index: 3;
-            opacity: 1;
-        }
+        
     </style>
 </head>
 
@@ -270,32 +202,37 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div>
+                                <img src="./certificates/Certificate of Attendance Ulap.jpg" width="100%" />
+                            </div>
+                            <div class="card-body text-start">
+                                <span class="fw-bold" > Certificate of Attendance Alibaba ACA Training </span>
+                                <p class="card-text">November 22-23, 2021</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div>
+                                <img src="./certificates/Karra Caye Santillan - Certificate of Scholarship.png" width="100%" />
+                            </div>
+                            <div class="card-body text-start">
+                                <span class="fw-bold" > Certificate of Scholarship </span>
+                                <p class="card-text">September 25, 2021</p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
-
-        <section class="mb-5">
-       <div class="carousel-wrapper">
-            <span id="item-1"></span>
-            <span id="item-2"></span>
-            <span id="item-3"></span>
-            <div class="carousel-item item-1">
-                <a href="#item-3" class="arrow-prev arrow"></a>
-                <a href="#item-2" class="arrow-next arrow"></a>
-            </div>
-
-            <div class="carousel-item item-2">
-                <a href="#item-1" class="arrow-prev arrow"></a>
-                <a href="#item-3" class="arrow-next arrow"></a>
-            </div>
-
-            <div class="carousel-item item-3">
-                <a href="#item-2" class="arrow-prev arrow"></a>
-                <a href="#item-1" class="arrow-next arrow"></a>
-            </div>
-
-       </div>
-    </section>
+       
+        
+    
     </main>
 
 
