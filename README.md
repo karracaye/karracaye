@@ -1,2 +1,2 @@
 ### Hi there 👋
-I'm karra a CompSci student majoring in Natural Language Processing, Graphic Designer, and aspiring front-end engineer.
+I'm Karra a Software Engineer and a UI/UX Designer.
