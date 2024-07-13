@@ -1,4 +1,5 @@
 <h2 align="left">Hi, I'm Karra Caye! 👋 </h2>
+<h4 align="left">UI/UX Designer & Junior Frontend Web Developer </h4>
 
 ###
 
