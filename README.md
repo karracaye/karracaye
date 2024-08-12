@@ -40,7 +40,7 @@
 
 ###
 
-<h5 align="left">Connect with me</h5>
+<h5 align="left">Connect with me and let's talk about your project</h5>
 
 ###
 
